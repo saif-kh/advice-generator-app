@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  
+  <title>Advice generator app</title>
+
+</head>
+<body>
+  <div class="main-container">
+    <div class="advice-tag">ADVICE #<span id="advice-id" class="advice-id">X</span></div>
+    <div id="advice-text" class="advice-text">Click the button to get a random advice.</div>
+    <div class="decor"><img class="desk-line" src="images\pattern-divider-desktop.svg" alt="line"/><img class="mobile-line" src="images\pattern-divider-mobile.svg" alt="line"/></div>
+    <div class="button" tabindex="0" onClick="displayAdvice()"><img src="images\icon-dice.svg" alt="dice-button"/></div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
